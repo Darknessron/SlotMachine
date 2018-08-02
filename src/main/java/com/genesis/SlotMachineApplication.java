@@ -32,7 +32,7 @@ public class SlotMachineApplication {
 		
 		SlotMachine machine = new SlotMachine(reels, spinner, evaluator);
 		
-		SpinResult result = machine.spin(10);
+		SpinResult result = machine.spin(100);
 		StringBuilder sb = new StringBuilder();
 		for (Symbol symbol : result.getSymbols()) {
 			sb.append(symbol.getName());

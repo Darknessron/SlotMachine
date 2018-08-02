@@ -35,7 +35,7 @@ public class SlotMachineApplicationTests {
 		
 		SlotMachine machine = new SlotMachine(reels, spinner, evaluator);
 		
-		SpinResult result = machine.spin(10);
+		SpinResult result = machine.spin(100);
 		Assert.assertEquals(0, result.getPayout());
 	}
 
@@ -49,8 +49,8 @@ public class SlotMachineApplicationTests {
 		
 		SlotMachine machine = new SlotMachine(reels, spinner, evaluator);
 		
-		SpinResult result = machine.spin(10);
-		Assert.assertEquals(200, result.getPayout());
+		SpinResult result = machine.spin(100);
+		Assert.assertEquals(2000, result.getPayout());
 	}
 
 	@Test
@@ -63,8 +63,8 @@ public class SlotMachineApplicationTests {
 		
 		SlotMachine machine = new SlotMachine(reels, spinner, evaluator);
 		
-		SpinResult result = machine.spin(10);
-		Assert.assertEquals(200, result.getPayout());
+		SpinResult result = machine.spin(100);
+		Assert.assertEquals(2000, result.getPayout());
 	}
 
 	@Test
@@ -77,8 +77,8 @@ public class SlotMachineApplicationTests {
 		
 		SlotMachine machine = new SlotMachine(reels, spinner, evaluator);
 		
-		SpinResult result = machine.spin(10);
-		Assert.assertEquals(200, result.getPayout());
+		SpinResult result = machine.spin(100);
+		Assert.assertEquals(2000, result.getPayout());
 	}
 
 	@Test
@@ -91,7 +91,7 @@ public class SlotMachineApplicationTests {
 		
 		SlotMachine machine = new SlotMachine(reels, spinner, evaluator);
 		
-		SpinResult result = machine.spin(10);
-		Assert.assertEquals(300, result.getPayout());
+		SpinResult result = machine.spin(100);
+		Assert.assertEquals(3000, result.getPayout());
 	}
 }
