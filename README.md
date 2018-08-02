@@ -11,7 +11,7 @@ Slot Machine for Genesis
 mvn clean install
 ```
 
-## Running the tests
+## Running the application and the tests
 
 Run
 
